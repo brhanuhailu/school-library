@@ -47,13 +47,6 @@ N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Not applicable]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -117,9 +110,9 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-``` sh
-N/A
-```
+- **Student class association**
+- **Person class association**
+- **teacher class association**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
