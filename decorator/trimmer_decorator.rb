@@ -2,6 +2,7 @@ require_relative 'base'
 
 class TrimDecorator < Decorator
   def correct_name
-    super.slice(0, 9) if super.length > 10
+    super.slice(0, 9) + '...'
+    super[0..9] + ''
   end
 end
