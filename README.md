@@ -41,9 +41,10 @@ Ruby
 
 ### Key Features <a name="key-features"></a>
 
-``` sh
-N/A
-```
+
+- Add Person class and his method👌
+- Add Student class and his method💯
+- Add Teachers class and his method👌
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,9 +111,9 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
- Add Person class and his method👌
- Add Student class and his method💯
- Add Teachers class and his method👌
+- **Student class association**
+- **Person class association**
+- **teacher class association**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,6 +121,7 @@ To run tests, run the following command:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/brhanuhailu/school-library/issues).
 
