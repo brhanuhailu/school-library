@@ -41,9 +41,10 @@ Ruby
 
 ### Key Features <a name="key-features"></a>
 
-``` sh
-N/A
-```
+
+- Add Person class and his method👌
+- Add Student class and his method💯
+- Add Teachers class and his method👌
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +121,7 @@ To run tests, run the following command:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
->Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/brhanuhailu/school-library/issues).
 
@@ -130,7 +131,7 @@ Feel free to check the [issues page](https://github.com/brhanuhailu/school-libra
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> I am  so excited to accept you feedback to improve my profession.
+ I am  so excited to accept you feedback to improve my profession.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +139,7 @@ Feel free to check the [issues page](https://github.com/brhanuhailu/school-libra
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
->I would like to thank Microverse and everyone who has contributed to this project
+I would like to thank Microverse and everyone who has contributed to this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +152,7 @@ Feel free to check the [issues page](https://github.com/brhanuhailu/school-libra
 
 ## 📝 License <a name="license"></a>
 
->This project is [MIT](https://github.com/brhanuhailu/school-library/blob/dev/LICENSE) licensed.
+- This project is [MIT](https://github.com/brhanuhailu/school-library/blob/dev/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
