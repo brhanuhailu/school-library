@@ -25,7 +25,7 @@ def choices(num)
   when 3
     OPTION.create_persons
   when 4
-    OPTION.create_book
+    OPTION.create_books
   when 5
     OPTION.create_rental
   when 6
