@@ -1,5 +1,4 @@
 require_relative 'app'
-require 'pry'
 
 OPTION = Option.new
 
