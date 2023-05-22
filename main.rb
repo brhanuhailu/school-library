@@ -38,7 +38,7 @@ end
 def main
   num = select_option
   return puts 'Thank you for using the app' if num == 7
-  
+
   choices(num)
   main
 end
