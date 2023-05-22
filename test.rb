@@ -7,17 +7,17 @@ require_relative './persons/classroom'
 
 mid_class = Classroom.new('Midclass')
 
-lily = Person.new(12, 'lily', parent_permission: false)
+brhanu = Person.new(12, 'brhanu', parent_permission: false)
 
-student_lily = Student.new(mid_class, lily.age, lily.name, parent_permission: false)
-student_lily.add_classroom = mid_class
+student_brhanu = Student.new(mid_class, brhanu.age, brhanu.name, parent_permission: false)
+student_brhanu.add_classroom = mid_class
 
-fantasy1 = Book.new('The curse child', 'J.K.Rowling')
-fantasy2 = Book.new('Twilight saga', 'Stephenie Meyer')
+fantasy1 = Book.new('Information science', 'brhanu hailu')
+fantasy2 = Book.new('child mind set', 'johon Meyer')
 
-lily.add_rental(fantasy1, '2023-01-11')
-lily.add_rental(fantasy2, '2023-01-11')
+brhanu.add_rental(fantasy1, '2023-01-11')
+brhanu.add_rental(fantasy2, '2023-01-11')
 
 puts mid_class.students
-puts lily.rents
+puts brhanu.rents
 puts fantasy1.rents
