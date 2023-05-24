@@ -5,12 +5,31 @@
     "age": 20,
     "type": "Student"
   },
- 
   {
     "id": 564,
-    "name": "morishia",
+    "name": null,
+    "age": null,
+    "type": "Teacher",
+    "specialization": "morishia"
+  },
+  {
+    "id": 419,
+    "name": null,
+    "age": "abebe",
+    "type": "Teacher",
+    "specialization": 40
+  },
+  {
+    "id": 242,
+    "name": "ee",
+    "age": 20,
+    "type": "Student"
+  },
+  {
+    "id": 51,
+    "name": "gdfg",
     "age": 30,
     "type": "Teacher",
-    "specialization": "chimiert"
+    "specialization": "rrrr"
   }
 ]
