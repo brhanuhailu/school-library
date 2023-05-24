@@ -5,18 +5,12 @@
     "age": 20,
     "type": "Student"
   },
+ 
   {
-    "id": 339,
-    "name": null,
-    "age": "berha",
+    "id": 564,
+    "name": "morishia",
+    "age": 30,
     "type": "Teacher",
-    "specialization": 30
-  },
-  {
-    "id": 181,
-    "name": "meselei",
-    "age": 20,
-    "type": "Teacher",
-    "specialization": "information"
+    "specialization": "chimiert"
   }
 ]
