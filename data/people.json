@@ -14,6 +14,7 @@
     "specialization": "morishia"
   },
   {
+<<<<<<< HEAD
     "id": 97,
     "name": "Ameerah",
     "age": 3,
@@ -26,5 +27,25 @@
     "age": 30,
     "type": "Teacher",
     "specialization": "Engineering"
+=======
+    "id": 419,
+    "name": null,
+    "age": "abebe",
+    "type": "Teacher",
+    "specialization": 40
+  },
+  {
+    "id": 242,
+    "name": "ee",
+    "age": 20,
+    "type": "Student"
+  },
+  {
+    "id": 51,
+    "name": "gdfg",
+    "age": 30,
+    "type": "Teacher",
+    "specialization": "rrrr"
+>>>>>>> bf542b0c910330c47a66ba79225be0f8487163ee
   }
 ]
