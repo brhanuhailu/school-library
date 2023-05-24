@@ -29,9 +29,7 @@ class SaveData
         age: person.age,
         type: person.class.name
       }
-      if person.instance_of?(::Teacher)
-        person_obj[:specialization] = person.specialization
-      end
+      person_obj[:specialization] = person.specialization if person.instance_of?(::Teacher)
       people_arr << person_obj
     end
 

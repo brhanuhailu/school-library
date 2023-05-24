@@ -7,9 +7,16 @@
   },
   {
     "id": 339,
-    "name": "berha",
-    "age": 30,
+    "name": null,
+    "age": "berha",
     "type": "Teacher",
-    "specialization": "chemistry"
+    "specialization": 30
+  },
+  {
+    "id": 181,
+    "name": "meselei",
+    "age": 20,
+    "type": "Teacher",
+    "specialization": "information"
   }
 ]
