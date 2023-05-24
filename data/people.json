@@ -11,10 +11,9 @@
     "name": null,
     "age": null,
     "type": "Teacher",
-    "specialization": "morishia"
+    "specialization": null
   },
   {
-<<<<<<< HEAD
     "id": 97,
     "name": "Ameerah",
     "age": 3,
@@ -23,29 +22,16 @@
   },
   {
     "id": 785,
-    "name": "Omotayo Akande",
-    "age": 30,
-    "type": "Teacher",
-    "specialization": "Engineering"
-=======
-    "id": 419,
     "name": null,
-    "age": "abebe",
+    "age": "Omotayo Akande",
     "type": "Teacher",
-    "specialization": 40
+    "specialization": 30
   },
   {
-    "id": 242,
-    "name": "ee",
-    "age": 20,
-    "type": "Student"
-  },
-  {
-    "id": 51,
-    "name": "gdfg",
-    "age": 30,
-    "type": "Teacher",
-    "specialization": "rrrr"
->>>>>>> bf542b0c910330c47a66ba79225be0f8487163ee
+    "id": 169,
+    "name": "Ameerah",
+    "age": 3,
+    "type": "Student",
+    "parent_permission": true
   }
 ]

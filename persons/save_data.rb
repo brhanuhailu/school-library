@@ -30,10 +30,10 @@ class SaveData
         type: person.class.name
       }
       if person.instance_of?(::Teacher)
-      person_obj[:specialization] = person.specialization 
-    else
-      person_obj[:parent_permission] = person.parent_permission
-    end
+        person_obj[:specialization] = person.specialization
+      else
+        person_obj[:parent_permission] = person.parent_permission
+      end
       people_arr << person_obj
     end
 
