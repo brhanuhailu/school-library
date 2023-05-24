@@ -41,8 +41,11 @@ class Option
       case type
       when 1
         print 'Has parent Permission? [Y/N]: '
-        permission = gets.chomp.downcase == 'y'
-        people = Student.new(age, name, parent_permission: permission)
+        permission = gets.chomp.downcase
+        if permission == 'y'
+          parent_permission = true;
+        end
+        people = Student.new(age, name, parent_permission)
       when 2
         print 'Specialization: '
         people = Teacher.new(gets.chomp, age, name)

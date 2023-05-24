@@ -21,7 +21,6 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [OOP School Library] <a name="about-project"></a>
 In this project, I have started to build the school library app. In this initial step, I have implemented the classes to represent students, teachers and person.
@@ -42,14 +41,12 @@ Ruby
 ### Key Features <a name="key-features"></a>
 
 
-- Add Person class and his method👌
-- Add Student class and his method💯
-- Add Teachers class and his method👌
+- Add a teacher or student to the school library app👌
+- Add books to the School -library💯
+- Rent books from the library and also preserve the data👌
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -94,7 +91,6 @@ To run tests, run the following command:
 ```
 
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -104,16 +100,21 @@ To run tests, run the following command:
 - Twitter: [@tigraycountry](https://twitter.com/TigrayCountry)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/brhanu-hailu-85578a246/)
 
+👤 **Akande Abdulwasiu**
+
+- GitHub: [@Newtayo](https://github.com/Newtayo)
+- Twitter: [@Omortayoh](https://twitter.com/Omortayoh)
+- LinkedIn: [Akande Abdulwasiu](https://linkedin.com/in/AkandeAbdulwasiu)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Student class association**
-- **Person class association**
-- **teacher class association**
+- **Edit Details of Existing members of the library**
+- **Edit Books in the Library**
+- **Delete the details of people no longer in the library**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +136,7 @@ Feel free to check the [issues page](https://github.com/brhanuhailu/school-libra
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -143,12 +144,11 @@ I would like to thank Microverse and everyone who has contributed to this projec
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+
 
 ## 📝 License <a name="license"></a>
 

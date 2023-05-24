@@ -3,14 +3,28 @@
     "id": 578,
     "name": "hdh",
     "age": 20,
-    "type": "Student"
+    "type": "Student",
+    "parent_permission": null
   },
- 
   {
     "id": 564,
-    "name": "morishia",
+    "name": null,
+    "age": null,
+    "type": "Teacher",
+    "specialization": "morishia"
+  },
+  {
+    "id": 97,
+    "name": "Ameerah",
+    "age": 3,
+    "type": "Student",
+    "parent_permission": true
+  },
+  {
+    "id": 785,
+    "name": "Omotayo Akande",
     "age": 30,
     "type": "Teacher",
-    "specialization": "chimiert"
+    "specialization": "Engineering"
   }
 ]
