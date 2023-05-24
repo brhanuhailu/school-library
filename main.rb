@@ -1,5 +1,4 @@
 require_relative 'app'
-require 'pry'
 
 OPTION = Option.new
 
@@ -25,7 +24,7 @@ def choices(num)
   when 3
     OPTION.create_persons
   when 4
-    OPTION.create_books
+    OPTION.create_book
   when 5
     OPTION.create_rental
   when 6
