@@ -2,12 +2,14 @@ require_relative 'persons/book'
 require_relative 'persons/student'
 require_relative 'persons/teacher'
 require_relative 'persons/rental'
+require_relative 'persons/read_data'
+require_relative 'persons/save_data'
 
 class Option
   def initialize
-    @books = []
-    @person = []
-    @rents = []
+    @books = ReadData.new.read_books
+    @person = ReadData.new.read_people
+    @rents = ReadData.new.read_rentals(ReadData.new.read_books, ReadData.new.read_people)
   end
 
   def list_books
@@ -47,6 +49,7 @@ class Option
       end
       @person << people
       puts "Created a Person successfully. \n"
+      SaveData.new.save_people(@person)
     else
       puts "Invalid type \n"
     end
@@ -61,6 +64,7 @@ class Option
 
     @books << Book.new(title, author)
     print 'Book created'
+    SaveData.new.save_books(@books)
   end
 
   def create_rental
@@ -81,6 +85,7 @@ class Option
 
     @rents << Rental.new(date, @person[person_num], @books[book_num])
     print "Rental created successfully \n"
+    SaveData.new.save_rentals(@rents, @books, @person)
   end
 
   def list_rentals
