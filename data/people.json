@@ -1,0 +1,15 @@
+[
+  {
+    "id": 578,
+    "name": "hdh",
+    "age": 20,
+    "type": "Student"
+  },
+  {
+    "id": 339,
+    "name": "berha",
+    "age": 30,
+    "type": "Teacher",
+    "specialization": "chemistry"
+  }
+]
