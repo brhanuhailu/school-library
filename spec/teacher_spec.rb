@@ -18,7 +18,6 @@ describe Teacher do
       expect(@teacher.name).to eq 'Alex'
     end
 
-
     it 'should be able to use service' do
       expect(@teacher.can_use_services?).to be_truthy
     end

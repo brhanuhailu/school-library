@@ -3,7 +3,6 @@ require_relative '../decorator/trimmer_decorator'
 require_relative '../persons/person'
 require 'rspec'
 
-
 describe CapitalizeDecorator do
   context 'when initializing' do
     before(:each) do

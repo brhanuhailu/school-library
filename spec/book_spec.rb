@@ -9,7 +9,6 @@ describe Book do
   new_person = Person.new(4, 'Omotayo')
   new_date = '2023-2-25'
 
-
   it 'Should display the Book title and author' do
     expect(new_book.title).to eq 'Wole Soyinka'
     expect(new_book.author).to eq 'Lion and the jewel'
