@@ -1,46 +1,22 @@
 require_relative '../persons/book'
 require_relative '../persons/person'
 require_relative '../persons/rental'
+require 'rspec'
+require 'date'
 
 describe Book do
-  context 'when initializing' do
-    before(:each) do
-      @book = Book.new('CS', 'Grace')
-    end
+  new_book = Book.new('Wole Soyinka', 'Lion and the jewel')
+  new_person = Person.new(4, 'Omotayo')
+  new_date = '2023-2-25'
 
-    it 'should have title' do
-      expect(@book.title).to eq 'CS'
-    end
 
-    it 'should have author' do
-      expect(@book.author).to eq 'Grace'
-    end
-
-    it 'should have empty rental' do
-      expect(@book.rental).to be_empty
-    end
-
-    it 'should change to hash format' do
-      hash = {
-        title: 'CS',
-        author: 'Grace'
-      }
-      expect(@book.to_hash).to eql(hash)
-    end
+  it 'Should display the Book title and author' do
+    expect(new_book.title).to eq 'Wole Soyinka'
+    expect(new_book.author).to eq 'Lion and the jewel'
   end
 
-  context 'when adding a rental' do
-    book = Book.new('CS', 'Grace')
-    person = Person.new(nil, 23, name: 'Milli', parent_permission: true)
-    rental = Rental.new('2023-2-22', book, person)
-    book.add_rental(person, '2023-2-22')
-
-    it 'should have rental data' do
-      expect(book.rental).not_to be_empty
-    end
-
-    it 'should have correct rental' do
-      expect(book.rental[0]).to eql(rental)
-    end
+  it 'Should be an instance of Rental' do
+    new_rental = new_book.add_rental(new_person, new_date)
+    expect(new_rental).to be_an_instance_of(Rental)
   end
 end

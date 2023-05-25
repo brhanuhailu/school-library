@@ -12,7 +12,7 @@ describe Classroom do
 
   context 'when adding a student to a classroom' do
     classroom = Classroom.new('Mathematics')
-    student = Student.new(20, 22, name: 'Smith', parent_permission: true)
+    student = Student.new(22, 'Smith', true)
 
     classroom.add_students(student)
 

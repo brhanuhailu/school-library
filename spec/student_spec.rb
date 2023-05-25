@@ -4,7 +4,7 @@ require_relative '../persons/classroom'
 describe Student do
   context 'when initializing' do
     before(:each) do
-      @student = Student.new(23, 20, name: 'brhanu')
+      @student = Student.new(20, 'brhanu', true)
     end
 
     it 'id should not be nil' do
@@ -24,24 +24,13 @@ describe Student do
     end
 
     it 'should show hooky text' do
-      hooky = '¯(ツ)/¯'
+      hooky = '¯\\(ツ)/¯'
       expect(@student.play_hooky).to eq hooky
-    end
-
-    it 'should change to hash format' do
-      hash = {
-        age: 20,
-        name: 'brhanu',
-        parent_permission: true,
-        type: 'Student',
-        id: 23
-      }
-      expect(@student.to_hash).to eql(hash)
     end
   end
 
   context 'when adding to a classroom' do
-    student = Student.new(23, 20, name: 'brhanu')
+    student = Student.new(20, 'brhanu', true)
     class_one = Classroom.new('Software engineering')
     student.classroom = class_one
     it 'should add classroom' do

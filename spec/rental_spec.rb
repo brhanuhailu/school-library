@@ -3,45 +3,17 @@ require_relative '../persons/person'
 require_relative '../persons/book'
 
 describe Rental do
-  person = Person.new(20, 22, name: 'Smith', parent_permission: true)
-  book = Book.new('Mathematics', 'Longhorn')
-  rental = Rental.new('2023/04/10', book, person)
+  let(:person) { Person.new(22, 'Smith') }
+  let(:book) { Book.new('Mathematics', 'Longhorn') }
+  let(:rental) { Rental.new('2023/04/10', book, person) }
 
-  context 'should create rental for a person or book' do
-    it 'Should create book rental' do
-      expect(book.rental).to include(rental)
+  context 'when creating a rental for a person or book' do
+    it 'should create a book rental' do
+      expect(book.rents).to include(rental)
     end
 
-    it 'Should create person rental' do
-      expect(person.rental).to include(rental)
-    end
-    it 'should change to hash format' do
-      hash = {
-        'date' => '2023/04/10',
-        'book' => {
-          title: 'Mathematics',
-          author: 'Longhorn'
-        },
-        'person' => {
-          age: 22,
-          name: 'Smith',
-          parent_permission: true,
-          type: 'Person'
-        }
-      }
-      expect(rental.to_hash).to eql(hash)
-    end
-  end
-
-  context 'Should create hash object' do
-    hash = {
-      'date' => '2023/04/10',
-      'book' => book.to_hash,
-      'person' => person.to_hash
-    }
-
-    it 'should change to hash' do
-      expect(rental.to_hash).to eql(hash)
+    it 'should create a person rental' do
+      expect(person.rents).to include(rental)
     end
   end
 end

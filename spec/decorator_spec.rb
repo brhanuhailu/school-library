@@ -1,9 +1,10 @@
 require_relative '../decorator/base'
+require_relative '../persons/person'
 
 describe Decorator do
   context 'when initializing' do
     before(:each) do
-      @person = Person.new(nil, 22, name: 'maximilianus')
+      @person = Person.new(22, 'maximilianus')
       @decorator = Decorator.new(@person)
     end
 
