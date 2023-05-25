@@ -1,4 +1,7 @@
-require_relative './decorator/capitlize_decorator'
+require_relative '../decorator/capitlize_decorator'
+require_relative '../decorator/trimmer_decorator'
+require_relative '../persons/person'
+
 
 describe CapitlizeDecorator do
   describe '#capitalize' do

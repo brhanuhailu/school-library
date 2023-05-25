@@ -1,46 +1,42 @@
-require_relative './persons/teacher'
+require_relative '../persons/teacher'
+
 
 describe Teacher do
-  describe '#initialize' do
-    it 'should create a new teacher' do
-      teacher = Teacher.new(1, 'name', 20)
-      expect(teacher).to be_an_instance_of(Teacher)
+    context 'when initializing' do
+      before(:each) do
+        @teacher = Teacher.new(33, 30, 'Information Science', name: 'Alex')
+      end
+  
+      it 'id should not be nil' do
+        expect(@teacher.id).not_to be_nil
+      end
+  
+      it 'should have age' do
+        expect(@teacher.age).to eq 30
+      end
+  
+      it 'should have name' do
+        expect(@teacher.name).to eq 'Alex'
+      end
+  
+      it 'should have parent_permission' do
+        expect(@teacher.parent_permission).to be_truthy
+      end
+  
+      it 'should be able to use service' do
+        expect(@teacher.can_use_services?).to be_truthy
+      end
+  
+      it 'should change to hash format' do
+        hash = {
+          age: 30,
+          name: 'Alex',
+          parent_permission: true,
+          type: 'Teacher',
+          id: 33,
+          specialization: 'Computer Science'
+        }
+        expect(@teacher.to_hash).to eql(hash)
+      end
     end
   end
-
-  describe '#id' do
-    it 'should return the id of the teacher' do
-      teacher = Teacher.new(1, 'name', 20)
-      expect(teacher.id).to eql(1)
-    end
-  end
-
-  describe '#name' do
-    it 'should return the name of the teacher' do
-      teacher = Teacher.new(1, 'name', 20)
-      expect(teacher.name).to eql('name')
-    end
-  end
-
-  describe '#age' do
-    it 'should return the age of the teacher' do
-      teacher = Teacher.new(1, 'name', 20)
-      expect(teacher.age).to eql(20)
-    end
-  end
-
-  describe '#specialization' do
-    it 'should return the specialization of the teacher' do
-      teacher = Teacher.new(1, 'name', 20)
-      expect(teacher.specialization).to eql(nil)
-    end
-  end
-
-  describe '#specialization=' do
-    it 'should set the specialization of the teacher' do
-      teacher = Teacher.new(1, 'name', 20)
-      teacher.specialization = 'specialization'
-      expect(teacher.specialization).to eql('specialization')
-    end
-  end
-end

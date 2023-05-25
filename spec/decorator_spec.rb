@@ -1,17 +1,14 @@
-require_relative './decorator/base'
+require_relative '../decorator/base'
 
 describe Decorator do
-  describe '#initialize' do
-    it 'should create a new decorator' do
-      decorator = Decorator.new('decorator')
-      expect(decorator).to be_an_instance_of(Decorator)
+    context 'when initializing' do
+      before(:each) do
+        @person = Person.new(nil, 22, name: 'maximilianus')
+        @decorator = Decorator.new(@person)
+      end
+  
+      it 'should return the correct name' do
+        expect(@decorator.correct_name).to eq 'maximilianus'
+      end
     end
   end
-
-  describe '#name' do
-    it 'should return the name of the decorator' do
-      decorator = Decorator.new('decorator')
-      expect(decorator.name).to eql('decorator')
-    end
-  end
-end
