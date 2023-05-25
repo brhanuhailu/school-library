@@ -1,0 +1,37 @@
+[
+  {
+    "id": 578,
+    "name": "hdh",
+    "age": 20,
+    "type": "Student",
+    "parent_permission": null
+  },
+  {
+    "id": 564,
+    "name": null,
+    "age": null,
+    "type": "Teacher",
+    "specialization": null
+  },
+  {
+    "id": 97,
+    "name": "Ameerah",
+    "age": 3,
+    "type": "Student",
+    "parent_permission": true
+  },
+  {
+    "id": 785,
+    "name": null,
+    "age": "Omotayo Akande",
+    "type": "Teacher",
+    "specialization": 30
+  },
+  {
+    "id": 169,
+    "name": "Ameerah",
+    "age": 3,
+    "type": "Student",
+    "parent_permission": true
+  }
+]
